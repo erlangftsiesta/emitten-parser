@@ -1,0 +1,21 @@
+{
+  "name": "aali-pdf-pipeline",
+  "version": "1.0.0",
+  "description": "Automated pipeline ekstraksi data AALI Laporan Pemegang Efek",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx/esm src/index.ts",
+    "dev": "node --import tsx/esm src/index.ts --input ./input/ADES_2026_1_31_ID.pdf",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "dependencies": {
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.19.37",
+    "tsx": "^4.7.0",
+    "typescript": "^5.4.5",
+    "vitest": "^1.5.0"
+  }
+}

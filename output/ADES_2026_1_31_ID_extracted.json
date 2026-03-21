@@ -1,0 +1,196 @@
+{
+  "metadata": {
+    "nomorSurat": "013/ER/LEG-SRT/AWI/II/2026",
+    "namaPerusahaan": "Akasha Wira International Tbk Tbk",
+    "kodeEmiten": "ADES",
+    "papanPencatatan": "Pengembangan",
+    "perihal": "Laporan Bulanan Registrasi Pemegang Efek",
+    "periodeAkhir": "2026-01-31",
+    "tanggalLaporan": "03-02-2026",
+    "biroAdministrasi": ""
+  },
+  "pemegangSaham": [
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Water Partners",
+      "alamat": "Treu Othmarstrasse 8, 8008 Zurich",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 538896713,
+      "persenSahamSebelumnya": 91.3544,
+      "jumlahSahamBulanIni": 538896713,
+      "persenSahamBulanIni": 91.3544,
+      "isPengendali": true,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Dra Nana Puspa Dewi",
+      "alamat": "Jl. Pulau Pelangi I / 15, RT. 003 / RW 09, Kembangan Utara, Kembangan, Jakarta Barat",
+      "jabatan": "Komisaris",
+      "jumlahSahamSebelumnya": 4000,
+      "persenSahamSebelumnya": 0.0007,
+      "jumlahSahamBulanIni": 4000,
+      "persenSahamBulanIni": 0.0007,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Masyarakat",
+      "alamat": "-",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 0,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Fany Soegiarto",
+      "alamat": "Jl. TB.Simatupang Kav. 89 RT 01 RW 02, Kelurahan Tanjung Barat, Kecamatan Jagakarsa, Jakarta Selatan - 12530",
+      "jabatan": "Direksi",
+      "jumlahSahamSebelumnya": 7900,
+      "persenSahamSebelumnya": 0.0013,
+      "jumlahSahamBulanIni": 7900,
+      "persenSahamBulanIni": 0.0013,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Total Pengendali",
+      "nama": "538,896,713",
+      "alamat": "91.3544%",
+      "jabatan": "538,896,713",
+      "jumlahSahamSebelumnya": 91.3544,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Total Non Pengendali",
+      "nama": "51,000,087",
+      "alamat": "8.6456%",
+      "jabatan": "51,000,087",
+      "jumlahSahamSebelumnya": 8.6456,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": false
+    }
+  ],
+  "kategoriPublik": [
+    {
+      "kategori": "Masyarakat - Warkat - Scrip",
+      "jumlahSahamSebelumnya": 688928,
+      "persenSebelumnya": 0.1168,
+      "jumlahSahamBulanIni": 688428,
+      "persenBulanIni": 0.1167
+    },
+    {
+      "kategori": "Masyarakat - Non Warkat - Scripless",
+      "jumlahSahamSebelumnya": 50299259,
+      "persenSebelumnya": 8.5268,
+      "jumlahSahamBulanIni": 50299759,
+      "persenBulanIni": 8.5269
+    },
+    {
+      "kategori": "Saham Treasury",
+      "jumlahSahamSebelumnya": 0,
+      "persenSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenBulanIni": 0
+    },
+    {
+      "kategori": "Total",
+      "jumlahSahamSebelumnya": 589896800,
+      "persenSebelumnya": 100,
+      "jumlahSahamBulanIni": 589896800,
+      "persenBulanIni": 100
+    }
+  ],
+  "ringkasanPengendali": [
+    {
+      "nama": "Total Pengendali",
+      "jumlahSahamSebelumnya": 538896713,
+      "persentaseSebelumnya": 91.3544,
+      "jumlahSahamBulanIni": 538896713,
+      "persentaseBulanIni": 91.3544
+    },
+    {
+      "nama": "Total Non Pengendali",
+      "jumlahSahamSebelumnya": 51000087,
+      "persentaseSebelumnya": 8.6456,
+      "jumlahSahamBulanIni": 51000087,
+      "persentaseBulanIni": 8.6456
+    }
+  ],
+  "totalSaham": 589896800,
+  "freeFloat": [
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh pemegang saham kurang dari 5%",
+      "bulanSebelumnya": 50311259,
+      "bulanIni": 50311659
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Direksi dan Dewan Komisaris kurang dari 5%",
+      "bulanSebelumnya": 11900,
+      "bulanIni": 11900
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Pengendali kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Afiliasi dari Pengendali kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah treasury stock scripless kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham portofolio investasi dengan penerima manfaat investor publik yang telah disetujui Bursa untuk diperhitungkan sebagai Free Float",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham Free Float",
+      "bulanSebelumnya": 50299359,
+      "bulanIni": 50299759
+    },
+    {
+      "keterangan": "Jumlah saham tercatat di Bursa per akhir bulan",
+      "bulanSebelumnya": 589896800,
+      "bulanIni": 589896800
+    },
+    {
+      "keterangan": "% Saham Free Float",
+      "bulanSebelumnya": 8.53,
+      "bulanIni": 8.53
+    }
+  ],
+  "jumlahPemegang": {
+    "bulanSebelumnya": 2331,
+    "bulanSekarang": 2366,
+    "perubahan": 35
+  },
+  "penerimaManfaat": [
+    "ANDY PE YONG WOON"
+  ],
+  "kontrolValidasi": {
+    "totalPengendaliPct": 91.3544,
+    "totalNonPengendaliPct": 8.6456,
+    "sumCheck": true,
+    "shareCountCheck": true,
+    "totalSahamTercatat": 589896800,
+    "pctFreefloat": 8.53
+  }
+}

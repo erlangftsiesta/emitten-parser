@@ -1,0 +1,157 @@
+{
+  "metadata": {
+    "nomorSurat": "FIN-IR/AAL/EXT/002/II/2026",
+    "namaPerusahaan": "Astra Agro Lestari Tbk",
+    "kodeEmiten": "AALI",
+    "papanPencatatan": "Utama",
+    "perihal": "Laporan Bulanan Registrasi Pemegang Efek",
+    "periodeAkhir": "2026-01-31",
+    "tanggalLaporan": "2026-02-10",
+    "biroAdministrasi": "PT. Raya Saham Registra"
+  },
+  "pemegangSaham": [
+    {
+      "kategori": "Saham Pemegang > 5%",
+      "nama": "International PT Astra Jl.",
+      "alamat": "Raya Gaya No. Motor 8",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 340510927,
+      "persenSahamSebelumnya": 17.69,
+      "jumlahSahamBulanIni": 340510927,
+      "persenSahamBulanIni": 17.69,
+      "isPengendali": true,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "International PT Astra Jl.",
+      "alamat": "Raya Gaya No. Motor 8",
+      "jabatan": "1.193.171.513",
+      "jumlahSahamSebelumnya": 0,
+      "persenSahamSebelumnya": 61.99,
+      "jumlahSahamBulanIni": 1193171513,
+      "persenSahamBulanIni": 61.99,
+      "isPengendali": true,
+      "isAfiliasi": false
+    }
+  ],
+  "kategoriPublik": [
+    {
+      "kategori": "Masyarakat - Warkat - Scrip",
+      "jumlahSahamSebelumnya": 340719727,
+      "persenSebelumnya": 17.7,
+      "jumlahSahamBulanIni": 340719727,
+      "persenBulanIni": 17.7
+    },
+    {
+      "kategori": "Masyarakat - Non Warkat - Scripless",
+      "jumlahSahamSebelumnya": 50286166,
+      "persenSebelumnya": 2.62,
+      "jumlahSahamBulanIni": 50286166,
+      "persenBulanIni": 2.62
+    },
+    {
+      "kategori": "Saham Treasury",
+      "jumlahSahamSebelumnya": 0,
+      "persenSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenBulanIni": 0
+    },
+    {
+      "kategori": "Total",
+      "jumlahSahamSebelumnya": 1924688333,
+      "persenSebelumnya": 100,
+      "jumlahSahamBulanIni": 1924688333,
+      "persenBulanIni": 100
+    }
+  ],
+  "ringkasanPengendali": [
+    {
+      "nama": "Total Pengendali",
+      "jumlahSahamSebelumnya": 1533682440,
+      "persentaseSebelumnya": 79.68,
+      "jumlahSahamBulanIni": 1533682440,
+      "persentaseBulanIni": 79.68
+    },
+    {
+      "nama": "Total Non Pengendali",
+      "jumlahSahamSebelumnya": 391005893,
+      "persentaseSebelumnya": 20.32,
+      "jumlahSahamBulanIni": 391005893,
+      "persentaseBulanIni": 20.32
+    }
+  ],
+  "totalSaham": 1924688333,
+  "freeFloat": [
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh pemegang saham kurang dari 5%",
+      "bulanSebelumnya": 390797093,
+      "bulanIni": 390797093
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Direksi dan Dewan Komisaris kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Pengendali kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Afiliasi dari Pengendali kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah treasury stock scripless kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham portofolio investasi dengan penerima manfaat investor publik yang telah disetujui Bursa untuk diperhitungkan sebagai Free Float",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham Free Float",
+      "bulanSebelumnya": 390797093,
+      "bulanIni": 390797093
+    },
+    {
+      "keterangan": "Jumlah saham tercatat di Bursa per akhir bulan",
+      "bulanSebelumnya": 1924688333,
+      "bulanIni": 1924688333
+    },
+    {
+      "keterangan": "% Saham Free Float",
+      "bulanSebelumnya": 20.3,
+      "bulanIni": 20.3
+    }
+  ],
+  "jumlahPemegang": {
+    "bulanSebelumnya": 16.323,
+    "bulanSekarang": 15.785,
+    "perubahan": 538
+  },
+  "penerimaManfaat": [
+    "Djony Bunarto Tjondro",
+    "Rudy",
+    "Gidion Hasan",
+    "Henry Tanoto",
+    "Santosa",
+    "Gita Tiffani Boer",
+    "Fxl Kesuma",
+    "Hamdani Dzulkarnaen Salim",
+    "Thomas Junaidi Alim W.",
+    "Hsu Hai Yeh"
+  ],
+  "kontrolValidasi": {
+    "totalPengendaliPct": 79.68,
+    "totalNonPengendaliPct": 20.32,
+    "sumCheck": true,
+    "shareCountCheck": true,
+    "totalSahamTercatat": 1924688333,
+    "pctFreefloat": 20.3
+  }
+}

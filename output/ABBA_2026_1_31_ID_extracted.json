@@ -1,0 +1,208 @@
+{
+  "metadata": {
+    "nomorSurat": "002/L-PTMM/II/2026",
+    "namaPerusahaan": "Mahaka Media Tbk",
+    "kodeEmiten": "ABBA",
+    "papanPencatatan": "Pemantauan Khusus",
+    "perihal": "Laporan Bulanan Registrasi Pemegang Efek",
+    "periodeAkhir": "2026-01-31",
+    "tanggalLaporan": "09-02-2026",
+    "biroAdministrasi": ""
+  },
+  "pemegangSaham": [
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "PT Beyond Media",
+      "alamat": "Plaza ABDA Lt.26, Jl. Jend. Sudirman Kav.59",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 1592831618,
+      "persenSahamSebelumnya": 40.47,
+      "jumlahSahamBulanIni": 1592831618,
+      "persenSahamBulanIni": 40.47,
+      "isPengendali": true,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "PT Solic Kreasi Baru",
+      "alamat": "Mangkuluhur City Tower One, Lt. 18 Suite 11, Jl. Gatot Subroto Kav. 1- 3",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 542042122,
+      "persenSahamSebelumnya": 13.77,
+      "jumlahSahamBulanIni": 542042122,
+      "persenSahamBulanIni": 13.77,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Mediahuis Ireland Limited",
+      "alamat": "Independent House, 27-32 Talbot Street, Dublin 1, Ireland",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 282886300,
+      "persenSahamSebelumnya": 7.19,
+      "jumlahSahamBulanIni": 282886300,
+      "persenSahamBulanIni": 7.19,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Mahendra Agakhan T",
+      "alamat": "Gudang Peluru Blok A/25",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 388200,
+      "persenSahamSebelumnya": 0.01,
+      "jumlahSahamBulanIni": 388200,
+      "persenSahamBulanIni": 0.01,
+      "isPengendali": false,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Ronny Wilimas",
+      "alamat": "Apart City RST Hawaii No. I-11, Cengkareng, Jakarta Barat",
+      "jabatan": "Direksi",
+      "jumlahSahamSebelumnya": 0,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 200000,
+      "persenSahamBulanIni": 0.01,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Total Pengendali",
+      "nama": "1,592,831,618",
+      "alamat": "40.47%",
+      "jabatan": "1,592,831,618",
+      "jumlahSahamSebelumnya": 40.47,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Total Non Pengendali",
+      "nama": "2,343,061,239",
+      "alamat": "59.53%",
+      "jabatan": "2,343,061,239",
+      "jumlahSahamSebelumnya": 59.53,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": false
+    }
+  ],
+  "kategoriPublik": [
+    {
+      "kategori": "Masyarakat - Warkat - Scrip",
+      "jumlahSahamSebelumnya": 175350297,
+      "persenSebelumnya": 4.46,
+      "jumlahSahamBulanIni": 175350297,
+      "persenBulanIni": 4.46
+    },
+    {
+      "kategori": "Masyarakat - Non Warkat - Scripless",
+      "jumlahSahamSebelumnya": 1342394320,
+      "persenSebelumnya": 34.1,
+      "jumlahSahamBulanIni": 1342194320,
+      "persenBulanIni": 34.09
+    },
+    {
+      "kategori": "Saham Treasury",
+      "jumlahSahamSebelumnya": 0,
+      "persenSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenBulanIni": 0
+    },
+    {
+      "kategori": "Total",
+      "jumlahSahamSebelumnya": 3935892857,
+      "persenSebelumnya": 100,
+      "jumlahSahamBulanIni": 3935892857,
+      "persenBulanIni": 100
+    }
+  ],
+  "ringkasanPengendali": [
+    {
+      "nama": "Total Pengendali",
+      "jumlahSahamSebelumnya": 1592831618,
+      "persentaseSebelumnya": 40.47,
+      "jumlahSahamBulanIni": 1592831618,
+      "persentaseBulanIni": 40.47
+    },
+    {
+      "nama": "Total Non Pengendali",
+      "jumlahSahamSebelumnya": 2343061239,
+      "persentaseSebelumnya": 59.53,
+      "jumlahSahamBulanIni": 2343061239,
+      "persentaseBulanIni": 59.53
+    }
+  ],
+  "totalSaham": 3935892857,
+  "freeFloat": [
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh pemegang saham kurang dari 5%",
+      "bulanSebelumnya": 1342782520,
+      "bulanIni": 1342782520
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Direksi dan Dewan Komisaris kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 200000
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Pengendali kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Afiliasi dari Pengendali kurang dari 5%",
+      "bulanSebelumnya": 43791628,
+      "bulanIni": 43791628
+    },
+    {
+      "keterangan": "Jumlah treasury stock scripless kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham portofolio investasi dengan penerima manfaat investor publik yang telah disetujui Bursa untuk diperhitungkan sebagai Free Float",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham Free Float",
+      "bulanSebelumnya": 1298990892,
+      "bulanIni": 1298790892
+    },
+    {
+      "keterangan": "Jumlah saham tercatat di Bursa per akhir bulan",
+      "bulanSebelumnya": 3935892857,
+      "bulanIni": 3935892857
+    },
+    {
+      "keterangan": "% Saham Free Float",
+      "bulanSebelumnya": 33,
+      "bulanIni": 33
+    }
+  ],
+  "jumlahPemegang": {
+    "bulanSebelumnya": 11954,
+    "bulanSekarang": 12271,
+    "perubahan": 317
+  },
+  "penerimaManfaat": [
+    "Erick Thohir"
+  ],
+  "kontrolValidasi": {
+    "totalPengendaliPct": 40.47,
+    "totalNonPengendaliPct": 59.53,
+    "sumCheck": true,
+    "shareCountCheck": true,
+    "totalSahamTercatat": 3935892857,
+    "pctFreefloat": 33
+  }
+}
