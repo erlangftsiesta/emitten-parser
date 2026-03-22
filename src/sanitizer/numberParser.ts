@@ -1,15 +1,9 @@
 /**
- * Konversi format angka Indonesia ke number JavaScript.
+ * numberParser.ts
+ * Konversi format angka Indonesia dan Anglo-Saxon ke number JavaScript.
  *
- * Format Indonesia: titik = ribuan, koma = desimal
- * Contoh: "1.924.688.333" -> 1924688333
- *         "17,69%"        -> 17.69  (isPercent: true)
- *         "20,3"          -> 20.3
- *         "0"             -> 0
- *
- * Format Anglo-Saxon (halaman 2 dokumen ini):
- *         "1,533,682,440" -> 1533682440
- *         "79.68%"        -> 79.68
+ * Format Indonesia : titik = ribuan, koma = desimal  → "1.924.688.333", "17,69%"
+ * Format Anglo-Saxon: koma = ribuan, titik = desimal → "1,533,682,440", "79.68%"
  */
 
 export interface ParsedNumber {
@@ -24,33 +18,27 @@ export function parseIndonesianNumber(raw: string): ParsedNumber | null {
 
   if (s === '' || s === '-' || s === 'N/A') return null;
 
-  // Deteksi flag persen
+  // Hapus flag persen
   const isPercent = s.endsWith('%');
   if (isPercent) s = s.slice(0, -1).trim();
 
-  // Hapus karakter X (boolean marker kolom Pengendali)
+  // Hapus marker boolean X
   s = s.replace(/X/g, '').trim();
-
   if (s === '') return null;
 
-  // Deteksi format: Anglo-Saxon vs Indonesia
-  // Anglo-Saxon: koma sebagai ribuan → "1,533,682,440" atau "79.68"
-  // Indonesia: titik sebagai ribuan → "1.924.688.333" atau "17,69"
   const isAngloSaxon = detectAngloSaxon(s, isPercent);
 
   let normalized: string;
-
   if (isAngloSaxon) {
     // Hapus koma ribuan, titik sudah jadi desimal
     normalized = s.replace(/,/g, '');
   } else {
-    // Hapus titik ribuan, ubah koma desimal -> titik
+    // Hapus titik ribuan, ubah koma desimal → titik
     normalized = s.replace(/\./g, '').replace(',', '.');
   }
 
-  // Hapus karakter non-numerik sisa (kecuali titik dan minus)
+  // Hapus karakter non-numerik sisa
   normalized = normalized.replace(/[^\d.\-]/g, '');
-
   if (normalized === '' || normalized === '.') return null;
 
   const value = parseFloat(normalized);
@@ -60,8 +48,12 @@ export function parseIndonesianNumber(raw: string): ParsedNumber | null {
 }
 
 /**
- * Deteksi apakah string menggunakan format Anglo-Saxon.
- * Heuristik: jika koma diikuti tepat 3 digit lalu koma/end → Anglo-Saxon thousands.
+ * Deteksi format Anglo-Saxon vs Indonesia.
+ * Aturan utama:
+ *  - Ada koma diikuti tepat 3 digit → Anglo-Saxon thousands
+ *  - Ada titik dengan tepat 3 digit setelahnya (bukan persen) → Indonesia thousands
+ *  - Ada titik dengan digit ≠ 3 → Anglo-Saxon decimal
+ *  - Jika ini persen dan ada titik dengan 3 digit → tetap Anglo-Saxon (misal "46.927%")
  */
 function detectAngloSaxon(s: string, isPercent: boolean): boolean {
   // Anglo-Saxon thousands: koma diikuti tepat 3 digit lalu koma/end
@@ -71,33 +63,24 @@ function detectAngloSaxon(s: string, isPercent: boolean): boolean {
     const parts = s.split('.');
     const afterDot = parts[parts.length - 1];
     if (parts.length === 2 && afterDot.length === 3) {
-      // Tepat 3 digit: ambiguous antara ribuan Indonesia vs desimal 3 tempat
-      // Jika ini nilai persen, tidak mungkin > 100 ribuan → pasti desimal
-      if (isPercent) return true;
-      // Jika bukan persen, tepat 3 digit = ribuan Indonesia (e.g. "16.323")
-      return false;
+      // Tepat 3 digit setelah titik: ambiguous
+      // Jika nilai persen → mustahil > 100 ribuan → pasti desimal Anglo-Saxon
+      // Jika bukan persen → ribuan Indonesia (e.g. "16.323")
+      return isPercent;
     }
-    // Selain 3 digit = desimal Anglo-Saxon (e.g. "79.68", "18.85")
+    // Selain 3 digit → Anglo-Saxon decimal (e.g. "79.68", "18.85")
     if (parts.length === 2) return true;
   }
 
   return false;
 }
 
-/**
- * Parse dan return hanya nilai number-nya. Throw jika tidak bisa parse.
- */
-export function parseNum(raw: string): number {
+export function parseNum(raw: string | undefined): number {
   if (!raw || raw.trim() === '') return 0;
-  const result = parseIndonesianNumber(raw);
-  return result?.value ?? 0;
+  return parseIndonesianNumber(raw)?.value ?? 0;
 }
 
-/**
- * Parse persen: return float 0-100.
- */
-export function parsePct(raw: string): number {
+export function parsePct(raw: string | undefined): number {
   if (!raw || raw.trim() === '') return 0;
-  const result = parseIndonesianNumber(raw);
-  return result?.value ?? 0;
+  return parseIndonesianNumber(raw)?.value ?? 0;
 }

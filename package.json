@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "node --import tsx/esm src/index.ts",
-    "dev": "node --import tsx/esm src/index.ts --input ./input/ADES_2026_1_31_ID.pdf",
+    "dev": "node --import tsx/esm src/index.ts --input ./input/AADI_2026_1_31_ID.pdf",
     "test": "vitest run",
     "test:watch": "vitest"
   },

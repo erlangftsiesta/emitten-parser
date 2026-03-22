@@ -1,0 +1,26 @@
+{
+  "01-2026": {
+    "processedAt": "2026-03-22T04:59:12.373Z",
+    "files": {
+      "AADI": {
+        "mtime": 1774092597742.6992,
+        "outputJson": "C:\\Users\\User\\Documents\\Erlang-Projects\\emitten-parser\\output\\json\\AADI.json"
+      },
+      "AALI": {
+        "mtime": 1774092598993.1213,
+        "outputJson": "C:\\Users\\User\\Documents\\Erlang-Projects\\emitten-parser\\output\\json\\AALI.json"
+      },
+      "ABBA": {
+        "mtime": 1774092599826.5664,
+        "outputJson": "C:\\Users\\User\\Documents\\Erlang-Projects\\emitten-parser\\output\\json\\ABBA.json"
+      }
+    },
+    "excelVersions": [
+      {
+        "version": "01-2026",
+        "generatedAt": "2026-03-22T04:59:15.140Z",
+        "fileCount": 3
+      }
+    ]
+  }
+}

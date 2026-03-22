@@ -4,13 +4,13 @@ export interface Metadata {
   kodeEmiten: string;
   papanPencatatan: string;
   perihal: string;
-  periodeAkhir: string;     // "2026-01-31"
-  tanggalLaporan: string;   // "2026-02-10"
+  periodeAkhir: string;      // "2026-01-31" — dari teks "berakhir pada DD MonthName YYYY"
+  tanggalLaporan: string;    // "10-02-2026 14:49" — dari tabel "Tanggal dan Waktu"
   biroAdministrasi: string;
 }
 
 export interface PemegangSaham {
-  kategori: string;         // "Pemegang Saham > 5%"
+  kategori: string;
   nama: string;
   alamat: string;
   jabatan: string;
@@ -23,7 +23,7 @@ export interface PemegangSaham {
 }
 
 export interface KategoriPublik {
-  kategori: string;         // "Masyarakat - Warkat - Scrip"
+  kategori: string;
   jumlahSahamSebelumnya: number;
   persenSebelumnya: number;
   jumlahSahamBulanIni: number;
@@ -59,7 +59,7 @@ export interface KontrolValidasi {
   pctFreefloat: number;
 }
 
-export interface AALIReport {
+export interface InterestReport {
   metadata: Metadata;
   pemegangSaham: PemegangSaham[];
   kategoriPublik: KategoriPublik[];
@@ -67,6 +67,10 @@ export interface AALIReport {
   totalSaham: number;
   freeFloat: FreeFloatRow[];
   jumlahPemegang: JumlahPemegang;
+  // Array nama bersih, sudah tervalidasi (tidak mengandung angka murni)
   penerimaManfaat: string[];
+  // Nama PT pengendali dari tabel "Pengendali dari Pemegang Saham Pengendali dalam bentuk PT"
+  // "N/A" jika section tidak ada di dokumen
+  pengendaliDalamBentukPT: string[] | "N/A";
   kontrolValidasi: KontrolValidasi;
 }

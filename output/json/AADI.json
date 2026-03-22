@@ -1,0 +1,272 @@
+{
+  "metadata": {
+    "nomorSurat": "AAI/007/II-26/corsec",
+    "namaPerusahaan": "PT Adaro Andalan Indonesia Tbk",
+    "kodeEmiten": "AADI",
+    "papanPencatatan": "Utama",
+    "perihal": "Laporan Bulanan Registrasi Pemegang Efek",
+    "periodeAkhir": "2026-01-31",
+    "tanggalLaporan": "09-02-2026 19:05",
+    "biroAdministrasi": ""
+  },
+  "pemegangSaham": [
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Budi Bowoleksono",
+      "alamat": "Cyber 2 Tower, Lantai 26 JL. HR Rasuna Said Blok X-5 Kav 13 Jakarta 12950",
+      "jabatan": "Komisaris",
+      "jumlahSahamSebelumnya": 0,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Primus Dorimulu",
+      "alamat": "Cyber 2 Tower, Lantai 26 JL. HR Rasuna Said Blok X-5 Kav 13 Jakarta 12950",
+      "jabatan": "Komisaris",
+      "jumlahSahamSebelumnya": 8500,
+      "persenSahamSebelumnya": 0.0001,
+      "jumlahSahamBulanIni": 8500,
+      "persenSahamBulanIni": 0.0001,
+      "isPengendali": false,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Julius Aslan",
+      "alamat": "Cyber 2 Tower Lantai 26Jl. H.R. Rasuna Said Blok X-5, No.13Jakarta 12950 - Indonesia",
+      "jabatan": "Direksi",
+      "jumlahSahamSebelumnya": 2506265,
+      "persenSahamSebelumnya": 0.0322,
+      "jumlahSahamBulanIni": 2506265,
+      "persenSahamBulanIni": 0.0322,
+      "isPengendali": false,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Priyadi",
+      "alamat": "Cyber 2 Tower Lantai 26Jl. H.R. Rasuna Said Blok X-5, No.13Jakarta 12950 - Indonesia",
+      "jabatan": "Direksi",
+      "jumlahSahamSebelumnya": 207108,
+      "persenSahamSebelumnya": 0.0027,
+      "jumlahSahamBulanIni": 207108,
+      "persenSahamBulanIni": 0.0027,
+      "isPengendali": false,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Lie Luckman",
+      "alamat": "Cyber 2 Tower Lantai 26Jl. H.R. Rasuna Said Blok X-5, No.13Jakarta 12950 - Indonesia",
+      "jabatan": "Direksi",
+      "jumlahSahamSebelumnya": 0,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Susanti",
+      "alamat": "Cyber 2 Tower Lantai 26Jl. H.R. Rasuna Said Blok X-5, No.13Jakarta 12950 - Indonesia",
+      "jabatan": "Direksi",
+      "jumlahSahamSebelumnya": 22700,
+      "persenSahamSebelumnya": 0.0003,
+      "jumlahSahamBulanIni": 22700,
+      "persenSahamBulanIni": 0.0003,
+      "isPengendali": false,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Afiliasi",
+      "alamat": "-",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 1468230571,
+      "persenSahamSebelumnya": 18.8552,
+      "jumlahSahamBulanIni": 1465036871,
+      "persenSahamBulanIni": 18.8141,
+      "isPengendali": false,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "PT Adaro Strategic",
+      "alamat": "Menara Karya, Lantai 23 JL. HR Rasuna Said Blok X-5 Kav 1-2 Jakarta 12950",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 3200142830,
+      "persenSahamSebelumnya": 41.0965,
+      "jumlahSahamBulanIni": 3200142830,
+      "persenSahamBulanIni": 41.0965,
+      "isPengendali": true,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "Garibaldi Thohir",
+      "alamat": "Menara Karya, Lantai 23 JL. HR Rasuna Said Blok X-5 Kav 1-2 Jakarta 12950",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 454011607,
+      "persenSahamSebelumnya": 5.8304,
+      "jumlahSahamBulanIni": 454011607,
+      "persenSahamBulanIni": 5.8305,
+      "isPengendali": true,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "PT Alamtri Resources",
+      "alamat": "Menara Karya, Lantai 23 JL. HR Rasuna Said Blok X-5 Kav 1-2 Jakarta 12950",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 1197023942,
+      "persenSahamSebelumnya": 15.3723,
+      "jumlahSahamBulanIni": 1197023942,
+      "persenSahamBulanIni": 15.3723,
+      "isPengendali": false,
+      "isAfiliasi": true
+    },
+    {
+      "kategori": "Total Pengendali",
+      "nama": "3,654,154,437",
+      "alamat": "46.927%",
+      "jabatan": "3,654,154,437",
+      "jumlahSahamSebelumnya": 46.927,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": false
+    },
+    {
+      "kategori": "Total Non Pengendali",
+      "nama": "4,132,737,323",
+      "alamat": "53.073%",
+      "jabatan": "4,132,737,323",
+      "jumlahSahamSebelumnya": 53.073,
+      "persenSahamSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenSahamBulanIni": 0,
+      "isPengendali": false,
+      "isAfiliasi": false
+    }
+  ],
+  "kategoriPublik": [
+    {
+      "kategori": "Masyarakat - Warkat - Scrip",
+      "jumlahSahamSebelumnya": 0,
+      "persenSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenBulanIni": 0
+    },
+    {
+      "kategori": "Masyarakat - Non Warkat - Scripless",
+      "jumlahSahamSebelumnya": 1464738237,
+      "persenSebelumnya": 18.8103,
+      "jumlahSahamBulanIni": 1467931937,
+      "persenBulanIni": 18.8513
+    },
+    {
+      "kategori": "Saham Treasury",
+      "jumlahSahamSebelumnya": 0,
+      "persenSebelumnya": 0,
+      "jumlahSahamBulanIni": 0,
+      "persenBulanIni": 0
+    },
+    {
+      "kategori": "Total",
+      "jumlahSahamSebelumnya": 7786891760,
+      "persenSebelumnya": 100,
+      "jumlahSahamBulanIni": 7786891760,
+      "persenBulanIni": 100
+    }
+  ],
+  "ringkasanPengendali": [
+    {
+      "nama": "Total Pengendali",
+      "jumlahSahamSebelumnya": 3654154437,
+      "persentaseSebelumnya": 46.927,
+      "jumlahSahamBulanIni": 3654154437,
+      "persentaseBulanIni": 46.927
+    },
+    {
+      "nama": "Total Non Pengendali",
+      "jumlahSahamSebelumnya": 4132737323,
+      "persentaseSebelumnya": 53.073,
+      "jumlahSahamBulanIni": 4132737323,
+      "persentaseBulanIni": 53.073
+    }
+  ],
+  "totalSaham": 7786891760,
+  "freeFloat": [
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh pemegang saham kurang dari 5%",
+      "bulanSebelumnya": 2935713381,
+      "bulanIni": 2935713381
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Direksi dan Dewan Komisaris kurang dari 5%",
+      "bulanSebelumnya": 2744573,
+      "bulanIni": 2744573
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Pengendali kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham scripless dimiliki oleh Afiliasi dari Pengendali kurang dari 5%",
+      "bulanSebelumnya": 1468230571,
+      "bulanIni": 1465036871
+    },
+    {
+      "keterangan": "Jumlah treasury stock scripless kurang dari 5%",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham portofolio investasi dengan penerima manfaat investor publik yang telah disetujui Bursa untuk diperhitungkan sebagai Free Float",
+      "bulanSebelumnya": 0,
+      "bulanIni": 0
+    },
+    {
+      "keterangan": "Jumlah saham Free Float",
+      "bulanSebelumnya": 1464738237,
+      "bulanIni": 1467931937
+    },
+    {
+      "keterangan": "Jumlah saham tercatat di Bursa per akhir bulan",
+      "bulanSebelumnya": 7786891760,
+      "bulanIni": 7786891760
+    },
+    {
+      "keterangan": "% Saham Free Float",
+      "bulanSebelumnya": 18.81,
+      "bulanIni": 18.85
+    }
+  ],
+  "jumlahPemegang": {
+    "bulanSebelumnya": 84228,
+    "bulanSekarang": 77816,
+    "perubahan": 6412
+  },
+  "penerimaManfaat": [
+    "Garibaldi Thohir",
+    "Christian Ariano Rachmat",
+    "Michael W. P. Soeryadjaya",
+    "Arini Saraswaty Subianto"
+  ],
+  "pengendaliDalamBentukPT": "N/A",
+  "kontrolValidasi": {
+    "totalPengendaliPct": 46.927,
+    "totalNonPengendaliPct": 53.073,
+    "sumCheck": true,
+    "shareCountCheck": true,
+    "totalSahamTercatat": 7786891760,
+    "pctFreefloat": 18.85
+  }
+}

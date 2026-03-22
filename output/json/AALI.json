@@ -6,14 +6,14 @@
     "papanPencatatan": "Utama",
     "perihal": "Laporan Bulanan Registrasi Pemegang Efek",
     "periodeAkhir": "2026-01-31",
-    "tanggalLaporan": "2026-02-10",
-    "biroAdministrasi": "PT. Raya Saham Registra"
+    "tanggalLaporan": "10-02-2026 14:49",
+    "biroAdministrasi": ""
   },
   "pemegangSaham": [
     {
-      "kategori": "Saham Pemegang > 5%",
-      "nama": "International PT Astra Jl.",
-      "alamat": "Raya Gaya No. Motor 8",
+      "kategori": "Pemegang Saham > 5%",
+      "nama": "PT Astra International",
+      "alamat": "Jl. Gaya Motor Raya No. 8 Jakarta",
       "jabatan": "",
       "jumlahSahamSebelumnya": 340510927,
       "persenSahamSebelumnya": 17.69,
@@ -24,10 +24,10 @@
     },
     {
       "kategori": "Pemegang Saham > 5%",
-      "nama": "International PT Astra Jl.",
-      "alamat": "Raya Gaya No. Motor 8",
-      "jabatan": "1.193.171.513",
-      "jumlahSahamSebelumnya": 0,
+      "nama": "PT Astra International",
+      "alamat": "Jl. Gaya Motor Raya No. 8 Jakarta",
+      "jabatan": "",
+      "jumlahSahamSebelumnya": 1193171513,
       "persenSahamSebelumnya": 61.99,
       "jumlahSahamBulanIni": 1193171513,
       "persenSahamBulanIni": 61.99,
@@ -130,8 +130,8 @@
     }
   ],
   "jumlahPemegang": {
-    "bulanSebelumnya": 16.323,
-    "bulanSekarang": 15.785,
+    "bulanSebelumnya": 16323,
+    "bulanSekarang": 15785,
     "perubahan": 538
   },
   "penerimaManfaat": [
@@ -146,6 +146,7 @@
     "Thomas Junaidi Alim W.",
     "Hsu Hai Yeh"
   ],
+  "pengendaliDalamBentukPT": "N/A",
   "kontrolValidasi": {
     "totalPengendaliPct": 79.68,
     "totalNonPengendaliPct": 20.32,
